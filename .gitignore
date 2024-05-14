@@ -1,0 +1,10 @@
+#Enviroment
+custom_features_env/
+
+
+teknisk_kode.txt
+
+#Old code
+old_src
+old_tests
+

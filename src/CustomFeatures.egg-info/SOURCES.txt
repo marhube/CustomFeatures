@@ -1,0 +1,10 @@
+pyproject.toml
+src/CustomFeatures/CumulativeMeans.py
+src/CustomFeatures/__init__.py
+src/CustomFeatures/py.typed
+src/CustomFeatures.egg-info/PKG-INFO
+src/CustomFeatures.egg-info/SOURCES.txt
+src/CustomFeatures.egg-info/dependency_links.txt
+src/CustomFeatures.egg-info/requires.txt
+src/CustomFeatures.egg-info/top_level.txt
+tests/test_CumulativeMeans.py

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: CustomFeatures
+Version: 0.0.1
+Summary: A package to facilitate feature enginnering for supervized learning
+Author-email: Martin Hunting <martin.hunting@hotmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/yourusername/my_package
+Project-URL: Documentation, https://yourusername.github.io/my_package
+Project-URL: Source, https://github.com/yourusername/my_package
+Project-URL: Tracker, https://github.com/yourusername/my_package/issues
+Requires-Python: >=3.10
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: numpy
+Requires-Dist: mypy
+Requires-Dist: scipy

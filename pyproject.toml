@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CustomFeatures"
+version = "0.0.1"
+description = "A package to facilitate feature enginnering for supervized learning"
+authors = [{name = "Martin Hunting", email = "martin.hunting@hotmail.com"}]
+license = { text = "MIT License" } 
+requires-python = ">=3.10"
+
+dependencies = [
+    'pandas','pyarrow','numpy','mypy','scipy'
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/my_package"
+Documentation = "https://yourusername.github.io/my_package"
+Source = "https://github.com/yourusername/my_package"
+Tracker = "https://github.com/yourusername/my_package/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+package-data = { "CustomFeatures" = ["py.typed"] }  # This line is added to include py.typed in your package
